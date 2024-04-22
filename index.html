@@ -5,6 +5,12 @@
     </head>
 
     <body>
-        <p>This is a test.</p>
+        <p id="title">This is a test.</p>
     </body>
+
+    <script src="/JS/textScrambler.js"></script>
+    <script>
+        titleElement = document.getElementById("title");
+        titelScramble = new Scramble(titleElement, "This is a test.", 4, 0.025, ' ');
+    </script>
 </html>
