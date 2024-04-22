@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='cache-control' content='no-cache'> 
+		<meta http-equiv='expires' content='0'> 
+		<meta http-equiv='pragma' content='no-cache'>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Bit Rush: Connected</title>
+
+        <link href="./CSS/defaultStyles.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<h1 id="title">This is a test.</h1>
+	</body>
+
+	<script src="./JS/textScrambler.js"></script>
+	<script>
+		titleElement = document.getElementById("title");
+		titelScramble = new Scramble(titleElement, "This is a test.", 4, 0.025, ' ');
+	</script>
+</html>
